@@ -1,0 +1,59 @@
+body {
+  margin: 20px;
+  font-family: 'Mukta Mahee', sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+header, section, ul {
+  width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  text-transform: uppercase;
+}
+header h1 {
+  text-align: center;
+  font-weight: 300;
+}
+header h1 span {
+  color: grey;
+
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 10px 0 20px;
+  background: transparent;
+color: white;
+}
+
+.list {
+}
+
+.list li.task {
+  margin: 10px 0;
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+
+.list li.completed {
+  text-decoration: line-through;
+}
+.list li.task > span {
+  display: none;
+  color: red;
+  float: right;
+}
+.list li.task:hover {
+  text-decoration: underline;
+
+}
+.list li.task:hover > span {
+  display: inline;
+}
